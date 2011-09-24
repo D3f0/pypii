@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+
 from PyQt4.QtGui import QApplication
 from gui import MainWindow
 import sys

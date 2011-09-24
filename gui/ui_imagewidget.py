@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui_files/imagewidget.ui'
 #
-# Created: Sat Sep 24 19:02:59 2011
+# Created: Sat Sep 24 19:21:10 2011
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -58,14 +58,14 @@ class Ui_ImageViewWidget(object):
         self.label = QtGui.QLabel(ImageViewWidget)
         self.label.setObjectName(_fromUtf8("label"))
         self.horizontalLayout.addWidget(self.label)
-        self.horizontalSlider = QtGui.QSlider(ImageViewWidget)
-        self.horizontalSlider.setMinimum(1)
-        self.horizontalSlider.setProperty(_fromUtf8("value"), 50)
-        self.horizontalSlider.setOrientation(QtCore.Qt.Horizontal)
-        self.horizontalSlider.setInvertedAppearance(False)
-        self.horizontalSlider.setTickPosition(QtGui.QSlider.TicksBelow)
-        self.horizontalSlider.setObjectName(_fromUtf8("horizontalSlider"))
-        self.horizontalLayout.addWidget(self.horizontalSlider)
+        self.sliderZoom = QtGui.QSlider(ImageViewWidget)
+        self.sliderZoom.setMinimum(1)
+        self.sliderZoom.setProperty(_fromUtf8("value"), 50)
+        self.sliderZoom.setOrientation(QtCore.Qt.Horizontal)
+        self.sliderZoom.setInvertedAppearance(False)
+        self.sliderZoom.setTickPosition(QtGui.QSlider.TicksBelow)
+        self.sliderZoom.setObjectName(_fromUtf8("sliderZoom"))
+        self.horizontalLayout.addWidget(self.sliderZoom)
         self.verticalLayout.addLayout(self.horizontalLayout)
 
         self.retranslateUi(ImageViewWidget)

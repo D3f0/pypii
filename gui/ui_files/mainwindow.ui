@@ -25,9 +25,6 @@
       </item>
      </layout>
     </item>
-    <item>
-     <widget class="QTextBrowser" name="textBrowser"/>
-    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
